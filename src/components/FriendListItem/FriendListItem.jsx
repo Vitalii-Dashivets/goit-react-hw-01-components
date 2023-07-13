@@ -5,7 +5,7 @@ export default function FriendListItem({ avatar, name, isOnline }) {
     return (
         <FriendListCard >
             <Online isOnline={isOnline}>{isOnline }</Online>
-            <Avatar src={avatar} alt="User avatar"  />
+            <Avatar src={avatar} alt="User avatar" width="48" />
             <Name>{ name}</Name>
         </FriendListCard>
     )
